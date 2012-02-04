@@ -1,24 +1,30 @@
 README
 
 Pupose:
-			Freemind to JSON export conversion tailored to Protovis use.
+
+Freemind to JSON xslt export conversion, tailored to Protovis use.
+
 Notes:
-			Use this xsl snippet for exporting data from Freemind to JSON using the Freemind export via XSLT menu.
-			The output is compatable with the import format needed for Protovis
-			Any questions I can be reached on @minkymorgan on twitter.
+
+Use this xsl snippet for exporting data from Freemind to JSON using the Freemind export via XSLT menu.
+The output is compatable with the import format needed for Protovis
+Any questions I can be reached on @minkymorgan on twitter.
 			
-			Fee based support for this software is available from the author. Please enquire.
+Fee based support for this software is available from the author. 
+If interested, please enquire.
+
 Usage:
-			1) In freemind, create a taxonomy with a root of a single word (no spaces).
-			2) Populate the taxonomy.
-			3) Do not decorate the taxonomy using fancy graphics, or use special characters
-			as these are likely to break the conversion process.
-			4) Via the Freemind application menus, select File/Export/Using XSLT
-			5) in the popup window for "select xsl file" browse to the freemind2json_v0_01.xsl file you downloaded to your computer 
-			6) in the popup window for "chose output file" create a output.js file accessable to protovis
-			7) in your protovis html, reference the output.js file, to feed data to your visualisation 
-				    <script type="text/javascript" src="output.js"></script>
-			8) in a modern browser open your visualisation
+
+1) In freemind, create a taxonomy with a root of a single word (no spaces).
+2) Populate the taxonomy.
+3) Do not decorate the taxonomy using fancy graphics, or use special characters
+as these are likely to break the conversion process.
+4) Via the Freemind application menus, select File/Export/Using XSLT
+5) in the popup window for "select xsl file" browse to the freemind2json_v0_01.xsl file you downloaded to your computer 
+6) in the popup window for "chose output file" create a output.js file accessable to protovis
+7) in your protovis html, reference the output.js file, to feed data to your visualisation 
+	    <script type="text/javascript" src="output.js"></script>
+8) in a modern browser open your visualisation
 			
 ################################################################################################################
 
