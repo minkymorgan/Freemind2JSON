@@ -1,0 +1,45 @@
+README
+
+Pupose:
+			Freemind to JSON export conversion tailored to Protovis use.
+Notes:
+			Use this xsl snippet for exporting data from Freemind to JSON using the Freemind export via XSLT menu.
+			The output is compatable with the import format needed for Protovis
+			Any questions I can be reached on @minkymorgan on twitter.
+			
+			Fee based support for this software is available from the author. Please enquire.
+Usage:
+			1) In freemind, create a taxonomy with a root of a single word (no spaces).
+			2) Populate the taxonomy.
+			3) Do not decorate the taxonomy using fancy graphics, or use special characters
+			as these are likely to break the conversion process.
+			4) Via the Freemind application menus, select File/Export/Using XSLT
+			5) in the popup window for "select xsl file" browse to the freemind2json_v0_01.xsl file you downloaded to your computer 
+			6) in the popup window for "chose output file" create a output.js file accessable to protovis
+			7) in your protovis html, reference the output.js file, to feed data to your visualisation 
+				    <script type="text/javascript" src="output.js"></script>
+			8) in a modern browser open your visualisation
+			
+################################################################################################################
+
+ Copyright (c) 2012 Andrew Morgan, minkymorgan at gmail dot com
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+ associated documentation files (the "Software"), to deal in the Software without restriction, including 
+ without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+ sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject 
+ to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial 
+ portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+ NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+#####################################################################################################
+
+
+
