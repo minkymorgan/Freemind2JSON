@@ -16,10 +16,6 @@
 		<xsl:if test="node"><xsl:apply-templates select="node"/>}</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>
-<!-- Freemind to JSON converter. 
-                      Copyright Andrew Morgan 2012.
-					  All rights reserved.
-			Notes
-			Use this for exporting data from Freemind to JSON. 
-			Any questions I can be reached on @minkymorgan on twitter.
+<!-- Copyright Andrew Morgan 2012.
+     See README for License.
 -->
